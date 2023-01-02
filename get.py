@@ -37,7 +37,6 @@ def main():
 
 
     else:
-        # print the error message
         print(f'Error {response.status_code}: {response.reason}')
 
     main()
